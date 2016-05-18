@@ -1,0 +1,516 @@
+/************* GENERIC CUSTOMISATIONS / CUSTOMISATIONS THAT APPLY TO +1 PAGES *************/
+html, body{
+	min-height: 100%
+}
+body{
+	font-family: 'Karla', sans-serif;
+	color: #656565;
+	margin: 0;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    position: relative;
+
+
+}
+
+main{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+h1{
+	font-size: 39px;
+	z-index: 1;
+	position: absolute;
+	color: #656565;
+}
+
+nav ul li{
+	display: inline;
+	list-style: none;
+	letter-spacing: 2px;
+}
+nav{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 85vh;
+	display: none;	
+
+}
+#li1{
+	margin-right: 20px;
+	margin-left: -3%;
+}
+
+nav a:link, nav a:visited {
+	color: #656565;
+	text-decoration: none;
+
+}
+nav a:hover {
+	border-bottom: #656565 solid 3px;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+nav a:active {
+	color: #656565;
+	text-decoration: none;
+}
+
+.underlineNav{
+	border-bottom: #656565 solid 3px;
+	padding-bottom: 10px;
+}
+
+.nav2{
+	text-align: right;
+	padding: 0;
+	margin-top: -700px;
+	margin-left: 70vw;
+	z-index: 2;
+	position: fixed;
+	width: 300px;
+	text-align: right;
+}
+
+.nav3{
+	text-align: right;
+	padding: 0;
+	margin-top: -660px;
+	margin-left: 70vw;
+	z-index: 2;
+	position: fixed;
+	width: 300px;
+	text-align: right;
+}
+
+/******************************* BACKGROUNDS *************************/
+#background1{
+	background-color:#f9f9f9;
+	margin-left: 15px;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+	position: absolute;
+}
+
+#background2{
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/background.png');
+	z-index: -7;
+	position: fixed;
+
+}
+
+
+/******************* ORIGAMI SHAPE BUTTONS - next step & repeat *************/
+.nextStep, .repeat{
+	border: 1px solid #eee;
+	padding: 10px;
+	border-radius: 2px;
+	color:  #656565;
+	background: none;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: 'Karla', sans-serif;
+}
+
+.nextStep{
+	margin-right: 40px;
+}
+
+
+/*********************** LANDING PAGE &&&&& ORIGAMI ANIMATIONS  ************************/
+
+.landing{
+	width: 100%;
+	height: 690px;
+	
+}
+
+#title1, #title2{
+	margin-top: 45vh;
+	margin-left:30px;
+	display: none;
+	float: left;
+	margin-right: 10px;
+	width: 80%;
+	color: #fff;
+}
+
+#title2{
+	display: inline;
+	z-index: -3;
+	position: absolute;
+	color: #656565;
+
+}
+
+#title2 > span{
+	color: #b4b4b4;
+}
+
+
+#heartFrame, #fishFrame, #foxFrame{
+	display: none;
+	margin: 0 auto;
+	height: 700px;
+	width: 510px;
+	border: none;
+}
+
+#heartFrame, #foxFrame{
+	padding-top: 50px;
+}
+#fishFrame{
+	transform: scale(0.9);
+}
+
+
+#hr1, #hr2, #hr3, #shape1:after{
+	border: #fef4ff solid 1px;
+	margin: 0 auto;
+	margin-left: 0;
+	width: 0%;
+	float: left;
+	margin-top: 125px;
+	z-index: -1;
+	position: absolute;
+
+}
+
+#hr2{
+	border: #f4f7ff solid 1px;
+	margin-top: 37px;
+}
+
+#hr3{
+	border: #fffbee solid 1px;
+	margin-top: 83px;
+}
+
+iframe{
+	display: block;
+	margin: 0 auto;
+	margin-left: -10%;
+	margin-top: 50px;
+	z-index: -1;
+}
+
+
+/******************* CHOOSE SHAPE PAGE *************************/
+#shapesSection{
+	margin: 0 auto;
+	width: 100%;
+	height: 600px;
+}
+
+.shapes{
+	font-family: 'Karla', sans-serif;
+	margin: 0 auto;
+	width: 100%;
+	height: 480px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.shapes > button{
+	font-family: 'Karla', sans-serif;
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 70px;
+	width: 232px;
+	font-size: 18px;
+	background: none;
+	line-height: 1.7;
+	box-shadow: none;
+	border: none;
+}
+
+#shape1{
+	margin-bottom: 55px;
+	margin-top: 90px;
+}
+
+.nextStep a:link, .repeat a:link, .shapes a:link, .shapes a:visited{
+	text-decoration: none;
+	color: #656565;
+	background: none;
+}
+
+#shape1:hover{
+	background-color: #fef4ff;
+	text-decoration: line-through;
+}
+#shape2:hover{
+	text-decoration: line-through;
+	color: #FFF;
+	background-color: #f4f7ff;
+}
+#shape3:hover{
+	text-decoration: line-through;
+	color: #FFF;
+	background-color: #fffbee;
+}
+
+.shapes a:active{
+	text-decoration: none;
+	
+}
+
+
+/******************************* ABOUT PAGE *******************************/
+
+
+#aboutmain{
+	font-family: 'Karla', sans-serif;
+	display: none;
+	margin: 0 auto;
+	margin-left: 27%;
+	margin-top: -620px;
+	position: fixed;
+	z-index: 11;
+	width: 40%;
+	height: 50%;
+	line-height: 1.7;
+	padding: 60px;
+	padding-top: 10px;
+	padding-bottom: 140px;
+	background-color: rgba(246, 246, 246, 0.8);
+	color: #656565;
+	font-weight: lighter;
+	word-spacing: 4px;
+	border-radius: 4px;
+	font-size: 1em;
+}
+
+#aboutmain h1{
+	margin-top: -5%;
+}
+#aboutmain p{
+	margin-top: 0;
+}
+
+input[type='text']{
+	border: none;
+	background-color:#fff;
+	padding: 5px;
+	border-radius: 2px; 
+	width: 50%;
+	font-size: 1em;
+}
+input[type='submit']{
+	background: rgba(253, 232, 226, 0.7);
+	border: none;
+	border-radius: 2px;
+	padding: 5px;
+	font-size: 1em;
+	width: 15%;
+}
+
+footer img{
+	width: 5%;
+	margin: 0 auto;
+	margin: 7px;
+}
+#fb{
+	margin-left: 40%;
+}
+#exit{
+	display: inline-block;
+	width: 40px;
+	margin-left: 100%;
+	margin-top: 2%;
+	height: auto;
+	cursor: pointer;
+}
+/****** MEDIA QUERIES ******/
+/*iphone 6*/
+@media only screen and (max-width: 767px) {
+	body{
+	 overflow-y:hidden;
+   		 overflow-x:hidden;
+	}
+
+	.landing{
+		overflow-x:hidden;
+	}
+	#background1{
+		width: 100vw;
+		height: 100vh;
+	}
+
+	#background2{
+		width: 375px;
+		height: 1200px;
+	}
+
+	#title1, #title2{
+		font-size: 1.42em;
+		line-height: 50px;
+		margin-top: 40vh;
+
+	}
+
+	nav{
+		margin: 0 auto;
+	}
+
+	.nav2{
+		margin-top: -200%;
+		position: fixed;
+		margin-left: 10px;
+		margin-bottom: 20px;
+
+	}
+	.nav3{
+		margin: 0 auto;
+		margin-top: -188%;
+		position: fixed;
+		margin-bottom: 20px;
+		padding: 0;
+		margin-left: 20px;
+	}
+	#li1{
+		margin-left: -12%;
+	}
+
+	#shapesSection{
+		height: 530px;
+	}
+
+	#shape1{
+		margin-top: 75px;
+	}
+
+	#aboutmain{
+		padding-left: 45px;
+		text-align: center;
+		width: 100vw;
+		height: 100vh;
+		font-size:0.9em;
+		margin: 0 auto;
+		margin-top: -185%;
+	}
+
+	footer{
+		margin: 0 auto;
+		width: 250px;
+		height: 70px;
+		margin-right: 100px;
+		margin-left: -30px;
+	}
+	input[type='text']{
+		border: none;
+		background-color:#fff;
+		padding: 5px;
+		border-radius: 2px; 
+		width: 50%;
+		font-size: 0.7em;
+	}
+	input[type='submit']{
+		background: rgba(253, 232, 226, 0.7);
+		border: none;
+		border-radius: 2px;
+		padding: 5px;
+		font-size: 0.7em;
+		width: 25%;
+	}
+
+	footer img{
+		width: 12%;
+		height: auto;
+		margin: 0 auto;
+		margin: 7px;	
+	}
+
+	#aboutmain p, form{
+		width: 70vw;
+		margin-right: 30px;
+	}
+
+	#exit{
+		margin-left: 200px;
+		margin-right: -30px;
+	}
+
+	#heartFrame{
+		height: 120%;
+		transform: scale(0.6);
+		margin-left: -17%;
+		margin-top: -26%;
+	}
+	#fishFrame{
+		height: 123%;
+		transform: scale(0.5);
+		margin-left: -17%;
+		margin-top: -20%;
+	}
+	#foxFrame{
+		height: 120%;
+		transform: scale(0.6);
+		margin-left: -17%;
+		margin-top: -20%;
+	}
+}
+
+/*table / ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+	#title1, #title2{
+		font-size: 2.7em;
+	}
+
+	.landing{
+		height: 100vh;
+	}
+	#shape1{
+		margin-top: 20px;
+	}
+
+	#heartFrame{
+		padding-top: 20%;
+	}
+	.nav2{
+		margin-top: -105%;
+		position: fixed;
+		margin-left: 52%;
+
+	}
+	#fishFrame{
+		padding-top: 30%;
+	}
+	.nav3{
+		margin-top: -105%;
+		position: fixed;
+		margin-left: 52%;
+
+	}
+	#foxFrame{
+		padding-top: 30%;
+	}
+
+	#aboutmain{
+		width: 70vw;
+		height: 70vh;
+		margin-top: -940px;
+		margin-left: 60px;
+	}
+
+	#aboutmain h1{
+		margin-top: 110px;
+	}
+	#aboutmain #p1{
+		margin-top: 110px;
+	}
+	#aboutmain p, #aboutmain form{
+		font-size: 1.2em;
+	}
+	input[type='submit']{
+		width: 25%;
+	}
+}

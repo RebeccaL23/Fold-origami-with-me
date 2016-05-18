@@ -1,0 +1,421 @@
+/****BUTTONS *****/
+body{
+	font-family: 'Karla', sans-serif;
+}
+
+#nextStep2, #repeat2{
+	width: 200px;
+	padding: 10px;
+	border: #f4f7ff solid 11px;
+	position: absolute;
+	margin-top: 94%;
+	letter-spacing: 2px;
+	font-family: 'Karla', sans-serif;
+
+}
+
+#nextStep2{
+	margin-left: 310px;
+}
+
+#nextStep2:disabled{
+	color: #d6d6d6;
+}
+#instructions2{
+	width: 500px;
+	margin-top: 87%;
+	text-align: center;
+	margin-right: 50px;
+	z-index: 1;
+	position: absolute;
+	letter-spacing: 1px;
+}
+#instructf1, #instructf2, #instructf3, #instructf4, #instructf5, #instructf6, #instructf7{
+	display: none;
+}
+
+.origami2{
+	width: 600px;
+	height: 600px;
+	transform-style: preserve-3d;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#fish{
+	transform-style: preserve-3d;
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	z-index: 0;
+	position: absolute;
+}
+
+#f1s1{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	background: #f4f7ff;
+
+
+}
+#f1TopLeft{
+	display: none;
+	z-index: 1;
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	border-right:#c5bfc4 dotted 5px;;
+	border-bottom: #c5bfc4 dotted 5px;
+}
+#f1BottomRight{
+	display: none;
+	z-index: 1;
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	border-left:#c5bfc4 dotted 5px;
+	border-top: #c5bfc4 dotted 5px;
+	margin-top:250px;
+	margin-left: 250px;
+	
+ }
+
+ #f2crease1{
+ 	width: 346px;
+ 	height: 346px;
+ 	border-bottom: #c5bfc4 dotted 5px;
+ 	border-left:#c5bfc4 dotted 5px;
+ 	transform: rotate(225deg);
+ 	position: absolute;
+ 	margin-top: 73px;
+	margin-left: 73px;
+ 	display: none;
+ 	z-index: 3;
+ 	position: absolute;
+ }
+
+ #f2TopTri, #f2BottomTri{
+ 	width: 250px;
+ 	height: 250px;
+ 	display: none;
+ 	backface-visibility: hidden;
+ 	transform-style: preserve-3d;
+
+ }
+ #f2TopTri{
+ 	margin-left: 250px;
+ }
+ #f2BottomTri{
+ 	margin-left: 250px;
+ 	
+ }
+ #f2TopTriFront, #f2TopTriBack{
+ 	width: 250px;
+ 	height: 250px;
+ 	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+ 	background: #f4f7ff;
+ 	z-index: 2;
+ 	position: absolute;
+ 	backface-visibility: hidden;
+ }
+ #f2BottomTriFront, #f2BottomTriBack{
+ 	width: 250px;
+ 	height: 250px;
+ 	-webkit-clip-path: polygon(0% 100%, 100% 100%, 100% 0%);
+ 	background: #f4f7ff;
+ 	z-index: 2;
+ 	position: absolute;
+ 	backface-visibility: hidden;
+ }
+ #f2TopTriBack, #f2BottomTriBack{
+ 	transform: rotateX(180deg);
+ 	background: #eaeefb;
+ 	z-index: 1;
+ 	position: absolute;
+ }
+
+/**************************** STEP 33333333 *****************/
+
+
+#f3{
+	width: 354px;
+	height: 250px;
+	display: none;
+ 	transform-origin: 50% 70%;
+ 	z-index: 2;
+ 	position: absolute;
+ 	transform-style: preserve-3d;
+
+}
+
+#f3TopLeft{
+	display: none;
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+
+
+}
+#f3TopLeftFront, #f3TopLeftBack{
+	margin-top: -250px;
+	display: none;
+	width: 249px;
+	height: 250px;
+	-webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 63%);
+	background: #f4f7ff;
+	z-index: 4;
+	position: absolute;
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+	transform: rotateY(0deg);
+	
+}
+#f3TopLeftBack{
+	-webkit-clip-path: polygon(0% 63%, 0% 0%, 100% 100%);
+	transform: rotateY(180deg);
+	background: #eaeefb;
+	z-index: 3;
+	position: absolute;
+	backface-visibility: hidden;
+}
+#f3TopLeftTri{
+	display: none;
+	width: 250px;
+	height: 250px;
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	
+}
+#f3TopLeftTriFront, #f3TopLeftTriBack{
+	width: 250px;
+	height: 250px;
+	display: none;
+	-webkit-clip-path: polygon(0% 100%, 0% 0%, 100% 0%);
+	background: #f4f7ff;
+	z-index: 5;
+	position: absolute;
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+	transform: rotateY(0deg);
+}
+
+#f3TopLeftTriBack{
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+	transform: rotateY(180deg);
+	background: #eaeefb;
+	z-index: 4;
+	position: absolute;;
+}
+
+#f3TopTri{
+	margin-top: -250px;
+	display: none;
+	width: 104px;
+	height: 250px;
+	-webkit-clip-path: polygon(0% 63%, 0% 0%, 100% 42%);
+	background: #eaeefb;
+	margin-left: 250px;
+	z-index: 2;
+	position: absolute;
+}
+#f3crease{
+	display: none;
+	width: 376.5px;
+	transform: rotate(-22.5deg);
+	border-bottom: #c5bfc4 dotted 5px;
+	margin-top: -77px;	
+	z-index: 5;
+	position: absolute;
+	margin-left: -10px;
+
+}
+
+#f4crease{
+	margin-top: -170px;
+	margin-left: 42px;
+	z-index: 17;
+	position: absolute;
+	display: none;
+	width: 345px;
+	height: 250px;
+	border-top: #c5bfc4 dotted 5px;
+	transform: rotate(-45deg);
+}
+
+/**************************** STEP 5555555555 *****************/
+
+
+#f5{
+	display: none;
+	width: 354px;
+	height: 250px;
+ 	transform-origin: 50% 28%;
+ 	z-index: 2;
+ 	position: absolute;
+ 	margin-top: 250px;
+ 	transform-style: preserve-3d;
+}
+
+#f5BottomLeft{
+	width: 250px;
+	height: 250px;
+	margin-top: -250px;
+	position: absolute;
+	transform-style: preserve-3d;
+
+
+
+}
+#f5BottomLeftFront, #f5TopBottomBack{
+	width: 249px;
+	height: 250px;
+	-webkit-clip-path: polygon(0% 0%, 100% 100%, 100% 37%);
+	background: #f4f7ff;
+	z-index: 4;
+	position: absolute;
+	transform: rotateY(0deg);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	
+}
+#f5BottomLeftBack{
+	width: 249px;
+	height: 250px;
+	-webkit-clip-path: polygon(0% 37%, 0% 100%, 100% 0%);
+	transform: rotateY(180deg);
+	background: #eaeefb;
+	z-index: 3;
+	position: absolute;
+	backface-visibility: hidden;
+}
+#f5BottomLeftTri{
+	width: 250px;
+	height: 250px;
+	transform-style: preserve-3d;
+	transform-origin: 51% 50%;
+}
+#f5BottomLeftTriFront, #f5BottomLeftTriBack{
+	width: 250px;
+	height: 250px;
+	-webkit-clip-path: polygon(0% 100%, 0% 0%, 100% 100%);
+	background: #f4f7ff;
+	z-index: 5;
+	position: absolute;
+	transform: rotateY(0deg);
+	backface-visibility: hidden;
+}
+
+#f5BottomLeftTriBack{
+	width: 250px;
+	height: 250px;
+	-webkit-clip-path: polygon(0% 100%, 100% 100%, 100% 0%);
+	transform: rotateY(180deg);
+	background: #eaeefb;
+	z-index: 4;
+	position: absolute;
+}
+
+#f5BottomTri{
+	margin: -250px;
+	width: 105px;
+	height: 250px;
+	-webkit-clip-path: polygon(0% 37%, 0% 100%, 100% 58%);
+	background: #eaeefb;
+	margin-left: 250px;
+	z-index: 2;
+	position: absolute;
+}
+#f5crease{
+	width: 376.5px;
+	transform: rotate(22.5deg);
+	border-bottom: #c5bfc4 dotted 5px;
+	margin-top: -180px;	
+	z-index: 5;
+	position: absolute;
+	margin-left: -10px;
+
+}
+
+#f6crease{
+	display: none;
+	margin-top: -349px;
+	margin-left: 38px;
+	z-index: 100;
+	position: absolute;
+	width: 345px;
+	height: 250px;
+	border-top: #c5bfc4 dotted 5px;
+	transform: rotate(224deg);
+}
+
+/***************** STEP 7777777777 ********************/
+#f7{
+	display: none;
+	width: 178px;
+	height: 500px;
+	transform-style: preserve-3d;	
+	transform-origin: 100% 50%;
+	backface-visibility: hidden;
+	margin-top: 73px;
+}
+#f7Front{
+	display: none;
+	width: 178px;
+	height: 353px;
+	background-image: url('../images/f5.png');
+	-webkit-clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+	z-index: 5;
+	position: absolute;
+	backface-visibility: hidden;
+
+}
+#f7Back{
+	display: none;
+	width: 178px;
+	height: 353px;
+	background: #eaeefb;
+	backface-visibility: hidden;
+	-webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+	transform: rotateY(180deg);
+	z-index: 4;
+	position: absolute;
+
+}
+
+#f7crease{
+	backface-visibility: hidden;
+	width: 178px;
+	height: 348px;
+	border-right: #c5bfc4 dotted 5px;
+	
+	z-index: 6;
+	position: absolute;
+
+}
+
+/************ mEDIA QUERIESSSS ********/
+/*iphone 6*/
+@media only screen and (min-width : 320px)and (max-device-height: 736px) {
+	#nextStep2, #repeat2{
+		width: 330px;
+		margin: 0 auto;
+		margin-left: 90px;
+		padding: 10px;
+		margin-top: 100%;
+		font-size: 1.5em;
+	}
+	#nextStep2{
+		margin-top: 117%;
+	}
+	#instructions2{
+		width: 500px;
+		text-align: center;
+		margin-right: 50px;
+		z-index: 1;
+		position: absolute;
+		letter-spacing: 1px;
+		font-size: 1.5em;
+	}

@@ -1,0 +1,180 @@
+body{
+	font-family: 'Karla', sans-serif;
+}
+
+#nextStep3, #repeat3{
+	width: 200px;
+	padding: 10px;
+	border: #fffbee solid 10px;
+	position: absolute;
+	margin-top: 7%;
+	letter-spacing: 2px;
+	font-family: 'Karla', sans-serif;
+	
+}
+
+#nextStep3{
+	margin-left: 310px;
+}
+
+.instructions3{
+	width: 500px;
+	padding-top: 73%;
+	text-align: center;
+	margin-right: 50px;
+	z-index: 1;
+	position: absolute;
+	letter-spacing: 1px;
+}
+#instruct11, #instruct12, #instruct13, #instruct14, #instruct15, #instruct16{
+	display: none;
+	text-align: center;
+	width: 500px;
+
+}
+
+.origami3{
+	width: 600px;
+	height: 500px;
+	transform-style: preserve-3d;
+	margin: 0 auto;
+
+}
+
+#foxOrigami{
+	width: 500px;
+	height: 500px;
+}
+
+#foxTop{
+	width: 500px;
+	height: 250px;
+	background-color: #fffbee;
+	-webkit-clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+}
+#foxBottom{
+	width: 500px;
+	height: 250px;
+	transform-style: preserve-3d;
+	transform-origin: 50% 0%;
+	z-index: 1;
+	position: absolute;
+}
+#foxBottomFront1, #foxBottomBack1{
+	width: 500px;
+	height: 250px;
+	background-color: #fffbee;
+	backface-visibility: hidden;
+	-webkit-clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+	z-index: 2;
+	position: absolute;
+}
+ #foxBottomBack1{
+ 	background-color: #fdf3d4;
+ 	transform: rotateY(180deg);
+ 	backface-visibility: hidden;
+ 	z-index: 1;
+	position: absolute;
+ }
+
+ #foxCrease1{
+ 	display: none;
+ 	width: 500px;
+ 	height: 250px;
+ 	border-top: #c5bfc4 dotted 5px;
+ 	z-index: 3;
+ 	position: absolute;
+ 	backface-visibility: hidden;
+ }
+
+ /************ STEP 2 ***************/
+ #foxTopTri{
+ 	display: none;
+ 	width: 250px;
+ 	height: 250px;
+ 	background-color: #fdf3d4;
+ 	-webkit-clip-path: polygon(0% 50%, 50% 0%, 100% 50%);
+ 	z-index: 1;
+ 	position: absolute;
+ 	box-shadow: 1px 1px 1px #606060;
+ 	margin-left: 125px;
+ 	
+ }
+ #foxCrease2{
+ 	width: 250px;
+ 	height: 125px;
+ 	border-bottom: #c5bfc4 dotted 5px;
+ 	z-index: 3;
+ 	position: absolute;
+ 	display: none;
+ 	margin-left: 125px;
+ }
+
+ /****************STEP 3 *******************/
+
+ #foxTopLeftTri, #foxTopRightTri{
+ 	display: none;
+ 	width: 247px;
+ 	height: 125px;
+ 	background-color: #fdf3d4;
+ 	box-shadow: 1px 1px 1px #eee;
+ 	position: absolute;
+ 	z-index: 2;
+ 	margin-top: 125px;
+ 	-webkit-clip-path: polygon(0% 100%, 42% 14.5%, 100% 100%);
+ 	transform-origin: 71% 60%;
+
+
+ }
+
+ #foxTopRightTri{
+ 	margin-left: 250px;
+ 	transform-origin: 29% 60%;
+ 	-webkit-clip-path: polygon(0% 100%, 58% 14.5%, 100% 100%);
+ }
+  #foxCrease3, #foxCrease4{
+  	display: none;
+  	z-index: 3;
+  	position: absolute;
+  	width: 178px;
+  	margin-left: 142px;
+  	margin-top: 34px;
+  	height: 178px;
+  	border-bottom: #c5bfc4 dotted 5px;
+  	transform: rotate(35deg);
+  	backface-visibility: hidden;
+  }
+
+  #foxCrease4{
+  	transform: rotate(-35deg);
+  	margin-left: 182px;
+  }
+
+/************ mEDIA QUERIESSSS ********/
+@media only screen and (min-width : 320px)and (max-device-height: 736px) {
+	#nextStep3, #repeat3{
+		width: 330px;
+		margin: 0 auto;
+		margin-left: 90px;
+		padding: 10px;
+		margin-top: 20%;
+		border: #fffbee solid 7px;
+		position: absolute;
+		letter-spacing: 2px;
+		font-size: 1.5em;
+		font-family: 'Karla', sans-serif;
+
+	}
+	#nextStep3{
+		margin-top: 40%;
+	}
+	#instructions3{
+		width: 500px;
+		padding-top: 2%;
+		text-align: center;
+		margin-right: 50px;
+		z-index: 1;
+		position: absolute;
+		letter-spacing: 1px;
+		font-size: 1.5em;
+	}
